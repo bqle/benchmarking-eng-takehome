@@ -1,0 +1,22 @@
+{
+  "title": "Test title",
+  "description": "Test description",
+  "tests": [
+    {
+      "input_under_test": "What is QSBS?",
+      "checks": [
+        {
+          "operator": "includes",
+          "criteria": "QSBS is a type of tax incentive"
+        },
+        {
+          "operator": "excludes",
+          "criteria": "S Corporation"
+        },
+        {
+          "operator": "grammar"
+        }
+      ]
+    }
+  ]
+}
