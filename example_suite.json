@@ -3,18 +3,15 @@
   "description": "Test description",
   "tests": [
     {
-      "input_under_test": "What is QSBS?",
+      "input_under_test": "Waht is QSBS",
       "checks": [
         {
           "operator": "includes",
-          "criteria": "QSBS is a type of tax incentive"
+          "criteria": "C Corporation"
         },
         {
           "operator": "excludes",
           "criteria": "S Corporation"
-        },
-        {
-          "operator": "grammar"
         }
       ]
     }
