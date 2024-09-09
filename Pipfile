@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-valsai = "*"
+valsai = "0.0.46"
 
 [dev-packages]
 
