@@ -10,9 +10,14 @@ npm run dev
 
 If you're unfamiliar with React, it is best to start with `src/App.tsx`.
 
+## Scripts setup
+```
+pipenv install  
+pipenv shell 
+```
+
 ## Suite Generation
 ```
-pipenv shell
 cd scripts
 python3 suite_generation.py
 ```
