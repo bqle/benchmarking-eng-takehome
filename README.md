@@ -23,3 +23,8 @@ python3 suite_generation.py
 ```
 The suite config file will be generated in JSON & CSV formats.
 
+## Collecting run accuracies
+```
+cd scripts
+python3 getting_run_results.py
+```
