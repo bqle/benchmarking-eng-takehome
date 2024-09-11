@@ -5,3 +5,51 @@
   text-align: center;
 }
 
+
+.App {
+  display: flex;
+  height: 100vh;
+  text-align: left;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  position: fixed;
+  height: 100%;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  margin-left: 270px; /* Adjust this margin to match sidebar width */
+  padding: 20px;
+  padding-left: 100px;
+  width: 100%;
+}
+
+.content section {
+  margin-bottom: 50px;
+}
